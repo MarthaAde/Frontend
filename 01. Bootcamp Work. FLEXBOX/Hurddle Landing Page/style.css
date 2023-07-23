@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url(./image/bg-desktop.svg); 
+    background-color: #674bb1;
+}
+
+.narbar{
+    padding-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.maincontainer{
+    padding: 0 4.5rem;
+}
+
+.navbar img{
+    width: 120px;
+}
+
+/*cta*/
+
+.cta{
+    display: flex;
+}
+
+.cta{
+    padding: 0 2.5;
+}
+
+.cta, .ctasection{
+    flex-basis: 50%;
+}
+
+.ctasection h2, .ctasection p{
+    margin-left: 50px;
+    border: 20px;
+    color: white;
+}
+
+.ctasection h2{
+    font-size: 2.5rem;
+}
+
+.ctasection p{
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.btn-Reg{
+    background-color: #e980e7;
+    padding: 1.2rem 4rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 40px;
+    margin-top: 1rem;
+    margin-left: 50px;
+    border: none;
+}
+
+.socials{
+    position: relative;
+    left: 1150px;
+    bottom: 0px;
+}
+
+.facebook{
+    display:inline-block;
+    border-radius: 50%; 
+    color: white;
+    padding: 0.5rem 0.8rem;
+    border: 2px solid white;
+    margin-right:10px;
+}
+
+.twitter{
+    display:inline-block;
+    border-radius:50%; 
+    color:rgb(192, 19, 192);
+    padding: 0.5rem 0.5rem;
+    border: 2px solid rgb(192, 19, 192);
+    margin: 0 5px;
+}
+
+.instagram{
+    display:inline-block;
+    border-radius:50%; 
+    color: white;
+    padding: 0.5rem 0.6rem;
+    border: 2px solid white;
+    margin-left:10px;
+}
+
+.name h5{
+    color: white;
+}

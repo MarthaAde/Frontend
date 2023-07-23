@@ -1,0 +1,92 @@
+body{
+    justify-content: center;
+    background-color: #fd7349;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container h1{
+    font-size:4rem;
+    margin-top: 2rem;
+}
+
+.container p{
+    font-size:1.5rem;
+}
+
+.headshot .card {
+    border-radius: 0;
+}
+
+.headshot img, .headshot .card{
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.headshot .fa-brands{
+    background-color: #fd7349;
+    border-radius: 50%;
+    padding: 0.8rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+.headshot p, h6{
+    color: grey;
+}
+
+.card {
+    border: none;
+    margin-top: 3rem;
+}
+
+footer {
+    background-color: #8f2d0f;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.columnContent ul, li{
+    list-style: none;
+    padding: 0;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: white;
+}
+
+.columnContent h2{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.columnContent p, h3{
+    color: white;
+    margin-top: 2rem;
+}
+
+.button-1 {
+    background-color: white;
+    padding: 1.2rem 4rem;
+    font-size: 1.2rem;
+    color: orangered;
+    border-radius: 40px;
+    margin-top: 1rem;
+    max-width: 100%;
+    border: none;
+}
+
+.button-2 {
+    background-color: orangered;
+    padding: 1.2rem 4rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    border: none;
+}

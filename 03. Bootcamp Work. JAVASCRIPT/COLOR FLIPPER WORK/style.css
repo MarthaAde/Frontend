@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color:green;
+}
+
+.white{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.maincontainer {
+    padding: 2rem 2rem;
+}
+
+.green {
+        display: flex;
+        margin: auto;
+        width: 30%;
+        border: 3px solid black;
+        justify-content: center;
+        background-color: black;
+        border-radius: 1rem;
+}
+
+.bgk{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#colorCode{
+    color: white;
+}
+
+.btn{
+    margin: auto;
+    padding-top: 2rem;
+    width: 10%;
+    color: black;
+    justify-content:center;
+    border-radius: 1rem;  
+}
+
+.click{
+    font-size: 1.5rem;
+}
+
+.myButton {
+    font-size: 20px; /* Increase or modify the font size as needed */
+    border-radius: 0.5rem;
+  }

@@ -1,0 +1,77 @@
+body{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.subcontainer{
+    width: 50%;
+}
+
+.white{
+    background-color: white;
+    height:400px;
+}
+
+.white h1{
+    font-size: 5rem;
+}
+
+.white h3{
+    font-size: 3rem;
+}
+
+.white p{
+    color: rgb(36, 139, 139);
+    font-size: 2rem;
+}
+.pets{
+    background-color: rgb(28, 139, 139);
+    display: flex;
+    height: 900px;
+    justify-content: center;
+}
+
+.roll {
+    display: flex;
+    justify-content:start
+}
+
+.gallery{
+    margin: -5rem;
+}
+
+.columnone{
+    margin-right: 1,5rem;
+    margin-bottom: 1.5rem
+}
+
+.columnTwo{
+    margin-left: 1.5rem;
+}
+
+.roll p{
+    font-size: 1.5rem;
+}
+
+ol, li{
+    font-size: 1.5rem;
+}
+
+.informations h2{
+    justify-content: center;
+}
+
+.informations h2{
+    display: inline-block;
+    border-radius: 5%;
+    padding: 1rem 1rem;
+    background-color: rgb(28, 139, 139);;
+    color: white;
+}
